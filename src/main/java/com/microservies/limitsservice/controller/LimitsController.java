@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LimitsController {
 
     @GetMapping
-    public Limits getLimits(){
+    public Limits getLimits() {
         return new Limits(1, 2000);
     }
 }
